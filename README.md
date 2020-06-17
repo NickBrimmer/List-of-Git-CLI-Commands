@@ -106,14 +106,24 @@ fetch and merge any commits from the tracking remote branch
 
 ```git status```
 show modified files in working directory, staged for your next commit
+
+
 ```git add [file]```
 add a file as it looks now to your next commit (stage)
+
+
 ```git reset [file]```
 unstage a file while retaining the changes in working directory
+
+
 ```git diff```
 diff of what is changed but not staged
+
+
 ```git diff --staged```
 diff of what is staged but not yet commited
+
+
 ```git commit -m “[descriptive message]”```
 commit your staged content as a new commit snapshot
 
@@ -136,10 +146,16 @@ retrieve an entire repository from a hosted location via URL
 
 ```git stash```
 Save modified and staged changes
+
+
 ```git stash list```
 list stack-order of stashed file changes
+
+
 ```git stash pop```
 write working from top of stash stack
+
+
 ```git stash drop```
 discard the changes from top of stash stack
 
