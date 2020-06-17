@@ -42,6 +42,10 @@ show all commits in the current branch’s history
 
 ## Ignoring Patterns
 
+```git config --global core.excludesfile [file]```
+system wide ignore patern for all local repositories
+
+
 
 ## Inspect and Compare
 
