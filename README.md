@@ -2,7 +2,7 @@
 Just a list of common Git CLI Commands
 
 
-## Setup
+### Setup
 
 ```git config --global user.name “[firstname lastname]”```
 set a name that is identifiable for credit when review version history
@@ -18,7 +18,7 @@ set automatic command line coloring for Git for easy reviewing
 
 
 
-## Branch and Merge
+### Branch and Merge
 
 ```git branch```
 list your branches. a * will appear next to the currently active branch
@@ -40,14 +40,14 @@ merge the specified branch’s history into the current one
 show all commits in the current branch’s history
 
 
-## Ignoring Patterns
+### Ignoring Patterns
 
 ```git config --global core.excludesfile [file]```
 system wide ignore patern for all local repositories
 
 
 
-## Inspect and Compare
+### Inspect and Compare
 
 ```git log```
 show the commit history for the currently active branch
@@ -69,7 +69,7 @@ show the diff of what is in branchA that is not in branchB
 show any object in Git in human-readable format
 
 
-## Re-Write History
+### Re-Write History
 
 ```git rebase [branch]```
 apply any commits of current branch ahead of specified one
@@ -79,7 +79,7 @@ apply any commits of current branch ahead of specified one
 clear staging area, rewrite working tree from specified commit
 
 
-## Share and Update
+### Share and Update
 
 ```git remote add [alias] [url]```
 add a git URL as an alias
@@ -102,7 +102,7 @@ fetch and merge any commits from the tracking remote branch
 
 
 
-## Stage & Snapshot
+### Stage & Snapshot
 
 ```git status```
 show modified files in working directory, staged for your next commit
@@ -120,7 +120,7 @@ commit your staged content as a new commit snapshot
 
 
 
-## Setup & Init
+### Setup & Init
 
 ```git init```
 initialize an existing directory as a Git repository
@@ -132,7 +132,7 @@ retrieve an entire repository from a hosted location via URL
 
 
 
-## Temporary Commits
+### Temporary Commits
 
 ```git stash```
 Save modified and staged changes
@@ -145,7 +145,7 @@ discard the changes from top of stash stack
 
 
 
-## Tracking Path Changes
+### Tracking Path Changes
 
 ```git rm [file]```
 delete the file from project and stage the removal for commit
